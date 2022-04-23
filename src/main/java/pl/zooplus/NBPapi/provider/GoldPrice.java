@@ -12,7 +12,7 @@ public class GoldPrice {
     private final String requestBody;
 
     public GoldPrice() {
-        this.requestBody = "https://api.nbp.pl/api/cenyzlota/last/7/?format=json";
+        this.requestBody = "https://api.nbp.pl/api/cenyzlota/last/14/?format=json";
     }
 
     public String getPrice() {
